@@ -1,0 +1,35 @@
+@import url('https://googleapis.com/css2?family=Orbitron:wght@500&family:wght@400;600&display=swap');
+body {
+    font-famiy:'Inter', sans-serif ;
+    background: #0f172a;
+    color: white;
+    margin:0;
+    text-align:center ;
+}
+h1 {
+    font-famiy:'Orbitron', sans-serif ;
+    margin: 20px 0;
+    color: gold;
+}
+.container{
+    max-width:900px;
+    margin: auto;
+    padding: 20px;
+}
+#searchInput{
+    padding: 10px;
+    width: 80%;
+    margin-bottom :20px ;
+    border-radius: 8px;
+    border: none ;
+    font-size:16px;
+}
+.crypto-card{
+    background: #1e293b;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    display:flex;
+    justify-content: space-between ;
+    align-items :center ;
+}
